@@ -114,10 +114,6 @@ Resources:
     Properties:
       UserPoolName: !Ref UserPoolName
       Schema:
-        - Name: name
-          AttributeDataType: String
-          Mutable: true
-          Required: true
         - Name: email
           AttributeDataType: String
           Mutable: true
